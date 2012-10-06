@@ -1,0 +1,18 @@
+{
+    "name": "robloach/httpserver",
+    "description": "Wrapper around PHP 5.4's HTTP Server.",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "HttpServer": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "symfony/process": "2.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "guzzle/guzzle": "2.8.*"
+    }
+}
